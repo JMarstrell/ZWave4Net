@@ -7,9 +7,13 @@ namespace ZWave.CommandClasses
 {
     public enum CentralSceneKeyState
     {
-        KeyPressed = 0x00,
+        KeyPressed1Time = 0x00,
         KeyReleased = 0x01,
         KeyHeldDown = 0x02,
+        KeyPressed2Times = 0x03,
+        KeyPressed3Times = 0x04,
+        KeyPressed4Times = 0x05,
+        KeyPressed5Times = 0x06
     }
 
     public class CentralSceneReport : NodeReport
